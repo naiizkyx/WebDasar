@@ -1,0 +1,255 @@
+/* *,
+*::before,
+*::after{
+    box-sizing: border-box;
+} */
+/* body{
+    margin: 0;
+}
+header{
+    padding: 24px;
+    display: flex;
+}
+header.navlist{
+    width: 100%;
+    max-width: 1200%;
+    display: flex;
+    justify-content: space-around;
+}
+.judul{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.logo img{
+    padding-right: 300px;
+    width: 200px;
+}
+ul.navigasi{
+    list-style-type: none;
+    display: flex;
+    margin-inline: auto;
+    gap: 2rem 3rem;
+    justify-content: center;
+    padding-left: 0;
+    text-decoration: none;
+}
+.navigasi a{
+    color: black;
+}
+
+.paragraf1{
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 50%;
+}
+.content{
+    display: flex;
+    padding-top: 24px;
+}
+.about-image{
+    width: 50%;
+    margin-right: 150px;
+}
+aside{
+align-items: center;}
+.about-image img{
+    width: 250px;
+    margin-top: 32px;
+} */
+
+
+body{
+    font-family: 'poppins', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    /* padding-bottom: 70px; */
+    background-color: white;
+    position: sticky;
+    position: fixed;
+    top: 0;
+    padding-top: 7px;
+    /* z-index: 9; */
+}
+.logo img{
+    width: 200px;
+}
+nav.navlist ul{
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+nav.navlist ul li a{
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in;
+}
+.navigasi{
+    list-style-type: none;
+    display: flex;
+}
+ul.navigasi li a:hover{
+    background-color: #007FA2;
+    color: white;
+    border-radius: 99px;   
+}
+main{
+    padding: 0.5rem 1.5rem;
+    width: 100%; 
+    /* max-width: 1200px; */
+    align-items: center;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+}
+div.deskripsi{
+    width: 50%;
+}
+div#content{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* flex: 1 1; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+div#content aside{
+    /* width: 50%; */
+    align-items: center;
+    margin-inline: 24px;
+}
+button.lebihlanjut{
+    /* gap: 2rem 1rem; */
+    /* display: flex; */
+    margin-top: 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 99px;
+    border: #007FA2;
+    background-color: #007FA2;
+    padding: 16px;
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+button.lebihlanjut:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+div.skill{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 4rem;
+    /* width: 50%; */
+    /* border: 3px solid rgb(65, 129, 144); */
+}
+div#exp{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+div.skill img{
+    width: 200px;
+}
+div.skill p.teks{
+    width: 30%;
+    padding: 24px;
+    border: 3px solid rgb(65, 129, 144);
+
+}
+div.skill p.teks:hover{
+    background-color: #007FA2;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border: 3px solid rgb(0, 0, 0); 
+}
+div.kolom{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+}div.kolom input{
+    border-radius: 99px;
+    padding: 12px;
+    border: 2px solid grey;
+}div.kolom button{
+    /* width: 60%; */
+    border-radius: 99px;
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+}
+div.kontakk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+div.kontak1{
+    width: 30%;
+    
+}
+div.kontak2{
+    /* width: 30%; */
+    width: 30%;
+    border: 3px solid deeppink;
+    padding: 16px;
+}
+footer{
+    /* margin: 0; */
+    text-align: center;
+    padding: 24px;
+    background-color: #007FA2;
+    color: white;
+}
+h2.kontakh{
+    font-size:70px;
+    /* color: bisque; */
+    color: lightsteelblue;
+    text-align: center;
+    width: 100%;
+}
+h2.skill{
+    font-size: 70px;
+    color: lightsteelblue;
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    div.kontakk{
+        flex: display;
+        /* flex-wrap: wrap; ]
+        ' vb\=_GTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+        ?y*/
+        flex-direction: column;
+    }
+    div.kolom button{
+        margin-bottom: 24px;
+
+    }
+    div.kontak2{
+        width: 50%;
+    }.header-content{}
+}
